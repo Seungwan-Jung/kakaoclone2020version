@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .econtainer {
+            border: 3px solid black;
+            height: 550px;
+            width: 550px;
+            background-color: #FDE1DD;
+            border-radius: 20px;
+            padding: 15px;
+
+        }
+
+        .write {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="econtainer">
+        <form method="GET" id="create-account-form">
+            <div class="write">
+                <label for="To">To:</label>
+                <input type="text" placeholder="Who you writing to" required />
+            </div>
+            <div class="write">
+                <label for="Subject">Subject:</label>
+                <input type="text" placeholder="what is your title" required />
+            </div>
+            <div class="write">
+                <label for="From">From:</label>
+                <input type="text" placeholder="who are you" required />
+            </div>
+
+            <div class="write">
+                <button type="submit">Send</button>
+                <button type="submit">Attach</button>
+            </div>
+            <div class="write">
+                <textarea name="" id="" cols="50" rows="10"></textarea>
+            </div>
+            <img src="C:\Users\swjun\Desktop\emailpic.jpg" alt="" width=450px" , height="225px">
+        </form>
+    </div>
+</body>
+
+</html>
